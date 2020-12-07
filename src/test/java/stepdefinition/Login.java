@@ -1,3 +1,11 @@
+/**
+ * A Classe Login é responsável por executar
+ * as ações de um Acesso de Usuário.
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */
+
 package stepdefinition;
 
 import cucumber.api.java.pt.Dado;
@@ -10,13 +18,7 @@ import java.util.Properties;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-/**
- * A Classe Login é responsável por executar
- * as ações de um Acesso de Usuário.
- *
- * @author Felipe Bessa <ffvechio@gmail.com>
- * @version 1.0
- */
+
 public class Login {
 
     private Properties properties = new PropertiesHelper().getProperties();

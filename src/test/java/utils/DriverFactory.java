@@ -1,3 +1,10 @@
+/**
+ * A Classe DriverFactory é responsável por executar a integração com os drivers dos navegadores,
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */
+
 package utils;
 
 import java.io.File;

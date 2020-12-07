@@ -1,3 +1,11 @@
+/**
+ * A Classe Hooks é responsável por agrupar métodos simples com anotações especiais
+ * dentro de suas classes de contexto podendo utilizar tags para um controle mais refinado.
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */
+
 package stepdefinition;
 
 import java.io.FileInputStream;
@@ -19,13 +27,7 @@ import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import framework.FrameworkDriver;
 import utils.DriverFactory;
-/**
- * A Classe Hooks é responsável por agrupar métodos simples com anotações especiais
- * dentro de suas classes de contexto podendo utilizar tags para um controle mais refinado.
- *
- * @author Felipe Bessa <ffvechio@gmail.com>
- * @version 1.0
- */
+
 public class Hooks {
 
     public static HashMap<String, String> variableMap = new HashMap<String, String>();

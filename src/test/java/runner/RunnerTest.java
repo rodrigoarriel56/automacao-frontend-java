@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
  * A Classe Runner do Cucumber é responsável por gerenciar
  * a execução dos testes.
  *
- * @author Felipe Bessa <ffvechio@gmail.com>
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
  * @version 1.0
  */
 @RunWith(Cucumber.class)

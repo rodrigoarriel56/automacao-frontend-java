@@ -55,7 +55,7 @@ public class FrameworkElement implements WebElement {
         WebDriverWait wait = new WebDriverWait(this.driver, this.waitForElement);
         wait.until(ExpectedConditions.elementToBeClickable(by));
         this.driver.findElement(by).click();
-        this.utils.addLogStep("Passed", "O objeto é clicado com sucesso", "O objeto n�o foi clicado com sucesso");
+        this.utils.addLogStep("Passed", "O objeto é clicado com sucesso", "O objeto não foi clicado com sucesso");
         takeEvidenceWithStep("click");
 
     }

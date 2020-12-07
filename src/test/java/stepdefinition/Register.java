@@ -1,3 +1,11 @@
+/**
+ * A Classe Register é responsável por executar
+ * as ações de um Registro de uma Conta.
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */
+
 package stepdefinition;
 
 import com.github.javafaker.Faker;
@@ -13,13 +21,7 @@ import java.util.Properties;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-/**
- * A Classe Register é responsável por executar
- * as ações de um Registro de uma Conta.
- *
- * @author Felipe Bessa <ffvechio@gmail.com>
- * @version 1.0
- */
+
 public class Register {
 
     private Properties properties = new PropertiesHelper().getProperties();

@@ -1,3 +1,11 @@
+/**
+ * A Classe AddAccount é responsável por executar
+ * as ações de um cadastro de uma Conta.
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */
+
 package stepdefinition;
 
 import com.github.javafaker.Faker;
@@ -11,13 +19,7 @@ import pages.LoginPage;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
-/**
- * A Classe AddAccount é responsável por executar
- * as ações de um cadastro de uma Conta.
- *
- * @author Felipe Bessa <ffvechio@gmail.com>
- * @version 1.0
- */
+
 public class AddAccount {
 
     private LoginPage loginPage = new LoginPage(Hooks.driver);
