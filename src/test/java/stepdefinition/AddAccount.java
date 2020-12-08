@@ -1,5 +1,5 @@
 /**
- * A Classe AddAccount é responsável por executar
+ * A Classe AddAccount é responsável por cenários de teste
  * as ações de um cadastro de uma Conta.
  *
  * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>

@@ -1,3 +1,9 @@
+/**
+ * A Classe Framework Word Evidence é responsável por criar e genciar as evidências e os seus cenários de teste
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */
 
 package framework;
 

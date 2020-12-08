@@ -1,3 +1,11 @@
+/**
+ * A Classe Framework Utils é responsável por criar e genciar as evidências e os seus cenários de teste
+ * Também é responsavel em criar a pasta outpu, caso a mesma não exista
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */
+
 package framework;
 
 import java.io.File;

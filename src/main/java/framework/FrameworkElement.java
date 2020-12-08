@@ -1,3 +1,10 @@
+/**
+ * A Classe FrameworkElement é responsável por gerenciar os objetos das paginas
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */
+ 
 package framework;
 
 import java.io.File;

@@ -1,3 +1,11 @@
+/**
+ * A Classe FrameworkNavigation é responsável por gerenciar as informações apresentadas em tela.
+ * A mesma também é responsavél por validar com o sistema(site) foi carregado com sucesso
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */
+
 package framework;
 
 import java.net.URL;

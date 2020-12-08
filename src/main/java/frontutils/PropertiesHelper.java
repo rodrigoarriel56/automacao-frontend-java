@@ -1,3 +1,11 @@
+/**
+ * A Classe Properties Helper é responsável por gerenciar as configurações das URL's a serem chamadas
+ * Configurações de paginas Web.
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */
+
 package frontutils;
 
 import java.io.FileInputStream;

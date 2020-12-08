@@ -1,6 +1,5 @@
 /**
- * A Classe Login é responsável por executar
- * as ações de um Acesso de Usuário.
+ * A Classe Login é responsável por executar o login do usuário em tela
  *
  * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
  * @version 1.0
@@ -58,7 +57,7 @@ public class Login {
 
     // Compara com assertEquals se a mensagem exibida na tela é a mesma que foi documentada no arquivo .feature
 
-    @Então("^a aplicação exibe a mensagem \"([^\"]*)\" de bem vindo$")
+    @Então("^a aplicação exibe a mensagem \"([^\"]*)\" ")
     public void a_aplicação_exibe_a_mensagem_de_bem_vindo(String mensagem) throws Throwable {
         assertEquals(mensagem, loginPage.getMessageLoginSuccess());
     }

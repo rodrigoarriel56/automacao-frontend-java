@@ -1,9 +1,3 @@
-package runner;
-
-import org.junit.runner.RunWith;
-
-import cucumber.api.CucumberOptions;
-import cucumber.api.junit.Cucumber;
 /**
  * A Classe Runner do Cucumber é responsável por gerenciar
  * a execução dos testes.
@@ -11,6 +5,14 @@ import cucumber.api.junit.Cucumber;
  * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
  * @version 1.0
  */
+
+package runner;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = {"features"},

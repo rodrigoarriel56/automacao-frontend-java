@@ -1,3 +1,10 @@
+/**
+ * A Classe AddAccountPage é responsável por gerenciar os obejetos da pagina de contas
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */
+
 package pages;
 
 import org.openqa.selenium.WebDriver;

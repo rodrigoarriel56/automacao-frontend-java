@@ -1,6 +1,5 @@
 /**
- * A Classe Register é responsável por executar
- * as ações de um Registro de uma Conta.
+ * A Classe Register é responsável por executar as ações de um Registro de uma Conta.
  *
  * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
  * @version 1.0

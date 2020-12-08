@@ -1,3 +1,10 @@
+/**
+ * A Classe LoginPage é responsável por gerenciar os obejetos da pagina de login
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */
+
 package pages;
 
 import org.openqa.selenium.WebDriver;
@@ -51,7 +58,8 @@ public class LoginPage extends BaseWebPageFactory {
         return validateMessagemLogin.getText();
     }
 
-    public void submitFieldLogout() {
+    public void submitFieldLogout() throws InterruptedException {
+    	Thread.sleep(2000);
         submitFieldLogout.click();
     }
 

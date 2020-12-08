@@ -1,3 +1,10 @@
+/**
+ * A Classe NewUserPage é responsável por gerenciar os objetos da pagina de novo usuário
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */
+
 package pages;
 
 import utils.BaseWebPageFactory;

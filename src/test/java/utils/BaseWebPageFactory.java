@@ -1,6 +1,5 @@
 /**
- * A Classe BaseWebPageFactory é responsável por verificar os objetos na pagina,
- * por validar a chamada da URL.
+ * A Classe BaseWebPageFactory é responsável por validar a chamada da URL.
  *
  * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
  * @version 1.0

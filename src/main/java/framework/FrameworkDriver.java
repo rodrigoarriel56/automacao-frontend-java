@@ -1,3 +1,10 @@
+/**
+ * A Classe Framework Driver é responsável por gerenciar os drivers dos navegadores
+ * Com isto, podemos executar em navegadores distintos
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */ 
 
 package framework;
 

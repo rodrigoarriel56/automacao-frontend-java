@@ -1,3 +1,10 @@
+/**
+ * A Classe Storage Manager é responsável por interagir com o pop-up do windows e alguns modais
+ *
+ * @author Rodrigo Arriel <rodrigoarriel56@gmail.com>
+ * @version 1.0
+ */
+
 package framework;
 
 import org.openqa.selenium.JavascriptExecutor;
